@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Task 2A</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function changeTxt(t, o) {
+            var o = document.getElementById(o);
+            o.innerHTML = t;
+            o.style.color = "#F00";
+        }
+    </script>
+
+    <h1 id="anH1tag">Hey</h1>
+    <div id="thisIsAclickableDiv" onclick="changeTxt('I am Garima. ','anH1tag');">
+        Click here to change<br><br>
+    </div>
+</body>
+</html>
